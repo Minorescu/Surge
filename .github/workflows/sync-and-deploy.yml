@@ -1,0 +1,112 @@
+name: Daily upstream sync and conditional deploy
+
+on:
+  schedule:
+    # 06:30 Asia/Shanghai = 22:30 UTC (previous day)
+    - cron: '30 22 * * *'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: ruleset-dual-sites
+  cancel-in-progress: false
+
+jobs:
+  check-upstream:
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.check.outputs.changed }}
+      upstream_sha: ${{ steps.check.outputs.upstream_sha }}
+    steps:
+      - name: Check upstream master via GitHub API
+        id: check
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          upstream_sha=$(gh api repos/SukkaLab/ruleset.skk.moe/commits/master --jq .sha)
+          echo "upstream_sha=$upstream_sha" >> "$GITHUB_OUTPUT"
+          status=$(gh api "repos/${{ github.repository }}/compare/${upstream_sha}...master" --jq .status)
+          if [ "$status" = "ahead" ] || [ "$status" = "identical" ]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+  sync-deploy-verify:
+    needs: check-upstream
+    if: needs.check-upstream.outputs.changed == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out full fork history
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Merge detected upstream revision
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git remote add upstream https://github.com/SukkaLab/ruleset.skk.moe.git
+          git fetch upstream master --tags --force
+          git merge "${{ needs.check-upstream.outputs.upstream_sha }}" --no-edit
+          git push origin master --follow-tags
+
+      - name: Prepare Cloudflare Pages main site
+        run: |
+          mkdir /tmp/cloudflare-site
+          rsync -a --exclude='.git' --exclude='CNAME' ./ /tmp/cloudflare-site/
+          python3 .github/customize.py /tmp/cloudflare-site/index.html https://ruleset.ssn.moe/
+          touch /tmp/cloudflare-site/.nojekyll
+
+      - name: Prepare GitHub Pages mirror
+        run: |
+          mkdir /tmp/github-site
+          rsync -a --exclude='.git' --exclude='CNAME' ./ /tmp/github-site/
+          python3 .github/customize.py /tmp/github-site/index.html https://ruleset-mirror.ssn.moe/
+          touch /tmp/github-site/.nojekyll
+
+      - name: Deploy Cloudflare Pages main site
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy /tmp/cloudflare-site --project-name=ruleset-ssn-moe --branch=master
+
+      - name: Configure GitHub Pages mirror
+        uses: actions/configure-pages@v5
+
+      - name: Upload GitHub Pages mirror artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: /tmp/github-site
+
+      - name: Deploy GitHub Pages mirror
+        uses: actions/deploy-pages@v4
+
+      - name: Verify both sites after deployment
+        run: |
+          set -euo pipefail
+          cp deploy-check.txt /tmp/expected.txt
+          for site in https://ruleset.ssn.moe https://ruleset-mirror.ssn.moe; do
+            ok=false
+            for attempt in 1 2 3 4 5 6; do
+              suffix="verify-${{ github.run_id }}-$attempt"
+              if curl -fLsS --connect-timeout 10 --max-time 30 "$site/?$suffix" -o /tmp/site.html \
+                && grep -q 'Minorescu Ruleset Server' /tmp/site.html \
+                && grep -q 'Made by' /tmp/site.html \
+                && grep -q 'Source @ GitHub' /tmp/site.html \
+                && grep -q 'Fork' /tmp/site.html \
+                && grep -q 'Sukka' /tmp/site.html \
+                && grep -q 'Licensed under' /tmp/site.html \
+                && curl -fLsS --connect-timeout 10 --max-time 30 "$site/deploy-check.txt?$suffix" -o /tmp/site.txt \
+                && cmp -s /tmp/site.txt /tmp/expected.txt; then
+                ok=true
+                break
+              fi
+              sleep 10
+            done
+            [ "$ok" = true ] || exit 1
+          done
