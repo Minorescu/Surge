@@ -1,10 +1,10 @@
 ! Title: Sukka's Ruleset - AdGuardHome Blocklist
-! Last modified: Thu, 10 Sep 2026 09:47:19 GMT
+! Last modified: Thu, 10 Sep 2026 10:54:03 GMT
 ! Expires: 6 hours
 ! License: https://github.com/SukkaW/Surge/blob/master/LICENSE
 ! Homepage: https://github.com/SukkaW/Surge
 ! Description: The AdGuardHome ruleset supports AD blocking, tracking protection, privacy protection, anti-mining
-! $content-hash-v1$:XHtS_cpJMaGAz7gFiodKQCfvlKhPDNCeLUu9khnZ4RQ$
+! $content-hash-v1$:qZ1feZYsqFB82S3aEdq1MhbQE-6HgSdoIs1LP8bdRWY$
 !
 ||data^
 ||null^
@@ -760,6 +760,7 @@
 ||ra10.xyz^
 ||re3r.com^
 ||reher.cn^
+||rer4.com^
 ||rezak.gq^
 ||rhrrf.cn^
 ||richh.cn^
@@ -52955,6 +52956,7 @@
 ||giggedsnawing.cyou^
 ||gikbdklwwxapc.site^
 ||gingeryproette.cfd^
+||gioprtacfjlmh.site^
 ||girnaloralist.shop^
 ||gjapplog.ucweb.com^
 ||gjaykx.omnibiz.com^
@@ -55806,6 +55808,7 @@
 ||optimize.heroic.us^
 ||optimizesocial.com^
 ||oqklt.babyquip.com^
+||oquassalupanar.com^
 ||oracle.allbirds.be^
 ||oracle.allbirds.ie^
 ||oracle.allbirds.nl^
@@ -56244,6 +56247,7 @@
 ||px.dmp.zaloapp.com^
 ||pxlizduukhnpps.com^
 ||pxsobkyobvsqw.site^
+||pyjdzoawcvxel.site^
 ||pyqfjx.medwing.com^
 ||pyralidfacsim.qpon^
 ||pysdjnutumhyv.site^
@@ -57305,6 +57309,7 @@
 ||sjfhb.ironhaft.com^
 ||sjprdu.oakhouse.jp^
 ||sjyzsm.danjohn.com^
+||sk-diagnostics.com^
 ||sk.go.pacs.academy^
 ||skbnfa.filorga.com^
 ||skbx.lorenzo.world^
@@ -64140,6 +64145,7 @@
 ||kjalq.zappiebox.com^
 ||kjekb.chadwicks.com^
 ||kjeule.sellyhome.se^
+||kjhjvchwtppzv.space^
 ||kjjuuy.icaniwill.fi^
 ||kjqas.getbrewsy.com^
 ||kjuono.biome.com.au^
@@ -65621,6 +65627,7 @@
 |numbers.mailbox.org^
 ||nuudfaatfdvvf.space^
 ||nvbflc.pinkpanda.bg^
+||nvxxspkywoqig.space^
 ||nwajdf.zakzak.co.jp^
 ||nwinfo.marshmma.com^
 ||nwkcdv.pandapiac.hu^
