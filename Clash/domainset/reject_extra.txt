@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Reject Extra
-# Last Updated: 2026-09-10T10:53:59.105Z
-# Size: 76512
+# Last Updated: 2026-09-10T11:04:13.751Z
+# Size: 76484
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -32,7 +32,7 @@
 #   - https://ublockorigin.pages.dev/thirdparties/easylist-notifications.txt
 #   - https://urlhaus-filter.pages.dev/urlhaus-filter-domains-online.txt
 #
-# $content-hash-v1$:zx5q00XGeqEVMqiRAe_tTl7nNmhJPgb8F5b4--eXpdY$
+# $content-hash-v1$:kZZqOXVh5zMorwjlcRXJwoOcBz5bGdIOEIJXsyF1Xno$
 #########################################
 7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe
 +.4.fo
@@ -12845,7 +12845,6 @@
 +.prufenzo.xyz
 +.psaiceex.net
 +.psclicks.com
-+.psnxiljx.com
 +.ptalribs.xyz
 +.pteenoum.com
 +.ptengine.com
@@ -20954,7 +20953,6 @@ scx.ddns.net
 +.greengaming.de
 +.greetzebra.com
 +.grescotuit.cfd
-+.gridedpul.qpon
 +.gridiogrid.com
 +.gridrelay27.co
 +.grievetube.com
@@ -22198,7 +22196,6 @@ scx.ddns.net
 +.primechoice.ru
 +.primeleech.com
 +.primix9090.net
-+.primynorsk.cfd
 +.privacy.ene.si
 +.privatelife.jp
 +.privoar121.net
@@ -29017,7 +29014,6 @@ scx.ddns.net
 +.busybeecover.com
 +.butleruther.cyou
 +.butwehaveino.com
-+.butynejutes.qpon
 +.buyhitscheap.com
 +.buysalesclub.com
 +.buzzparadise.com
@@ -31861,7 +31857,6 @@ scx.ddns.net
 +.securerunner.com
 +.security60-e.com
 +.sed.kjh69sa99.jp
-+.sedangrelay.qpon
 +.seducepolice.com
 +.seektrousers.com
 +.sefeethameel.com
@@ -33397,7 +33392,6 @@ scx.ddns.net
 +.air-look-send.com
 +.air360tracker.net
 +.airbornemiser.com
-+.airingscarts.shop
 +.aisecurityusa.com
 +.aisleovershoe.com
 +.ajcryptominer.com
@@ -33564,7 +33558,6 @@ scx.ddns.net
 +.attendsdeewan.com
 +.attentbrazes.cyou
 +.au-eparcelsan.com
-+.audacesorbate.cfd
 +.audientdirts.qpon
 +.audilesincord.cfd
 +.augmenttangle.com
@@ -34113,7 +34106,6 @@ scx.ddns.net
 +.cocoafabulous.com
 +.coddyeuripos.cyou
 +.codeadnetwork.com
-+.codenscorner.cyou
 +.codevexillium.org
 +.cogentselfish.com
 +.coghlecytozoa.cfd
@@ -36016,7 +36008,6 @@ onlycash.ddns.net
 +.openintroduce.com
 +.operatingnews.com
 +.opsecdefcloud.com
-+.optedquality.qpon
 +.opticlygremio.com
 +.optin-machine.com
 +.optionupcast.shop
@@ -36677,7 +36668,6 @@ onlycash.ddns.net
 +.sepsidmanjack.com
 +.sequentmalus.shop
 +.serialsonline.net
-+.sericincarte.qpon
 +.serv.ds.kakao.com
 +.servedbyopenx.com
 +.servehemsusan.com
@@ -37307,7 +37297,6 @@ onlycash.ddns.net
 +.tricesunplait.cfd
 +.trigs-sockets.com
 +.trillfesters.cyou
-+.tritylodorate.cfd
 +.trk.arenachat.xyz
 +.trkpnt.ongage.net
 +.trktopbest1.store
@@ -37612,7 +37601,6 @@ vietpool.vddns.vn
 +.weightwatchers.cm
 +.weiledsteverm.org
 +.weirdergapes.shop
-+.welbljmkjmvwm.top
 +.welliesratany.com
 +.welt-der-links.de
 +.westerdayeol.site
@@ -37662,7 +37650,6 @@ vietpool.vddns.vn
 +.wimpledcicuta.cfd
 +.winaffiliates.com
 +.wishhoree1890.com
-+.wishtdisnest.qpon
 +.wissekeygroup.com
 +.withdrawtrade.com
 +.withouthuzzah.com
@@ -37752,7 +37739,6 @@ vietpool.vddns.vn
 +.yerbasbosher.qpon
 +.yetlotmiracle.com
 +.yfqrdeewqnwvy.net
-+.yhlexjlgxhnjg.com
 +.yieldpartners.com
 +.yieldsoftware.com
 +.yiluzhuanqian.com
@@ -38068,7 +38054,6 @@ vietpool.vddns.vn
 +.aepdiscounts.click
 +.aeucjiicbgosj.site
 +.aexouiunvonkl.site
-+.aezbgiyefpqyb.site
 +.afanglffjywuu.site
 +.affiliateclick.com
 +.affiliates.systems
@@ -39750,7 +39735,6 @@ bowserlab.ddns.net
 +.epartoukfarepu.org
 +.epbssmpdthcsl.site
 +.epidzasjhnzoi.site
-+.epigeicclimant.cfd
 +.epilovnncqduc.site
 +.epjlfziryrpkg.site
 +.eplproseason25.com
@@ -44253,7 +44237,6 @@ oceansail.ddns.net
 +.untristseaside.com
 +.unurbanjowser.cyou
 +.unvicarcahiers.cfd
-+.unwaryusurers.shop
 +.unwindjokerago.com
 +.unwitting-milk.com
 +.unwrittenfront.com
@@ -46024,7 +46007,6 @@ oceansail.ddns.net
 +.brashgrandchild.com
 +.bravo.israelinfo.ru
 +.breachinability.com
-+.breakaxrookies.shop
 +.breedsmuteexams.com
 +.brewbagelpillar.com
 +.brghterimagelab.com
@@ -46176,7 +46158,6 @@ oceansail.ddns.net
 +.cbjflptthbjnb.space
 +.cbjtfkjfukuyb.store
 +.cbqkiuokpxtti.space
-+.cbsloirslgakw.space
 +.ccfvhquaynxcp.space
 +.ccidedogerppw.space
 +.ccjfxvnyiqcfv.space
@@ -47020,7 +47001,6 @@ oceansail.ddns.net
 +.etukuqstzpkzz.space
 +.etxyhcxycpbql.space
 +.etyiteapleotz.space
-+.etzcejqibnrjk.space
 eu-ethpool.ddns.net
 eu-ubqpool.ddns.net
 +.eugkpjjonhuts.space
@@ -51958,7 +51938,6 @@ vbk-reb0rn.ddns.net
 +.yaqdcfkkxjqkc.space
 +.yasyyxtxtlbxpnq.net
 +.yaukggyktvseg.space
-+.yawnupshelldog.qpon
 +.yawuyibzriuzn.space
 +.ybibpwduubqhk.space
 +.ybjgdbcmispbe.store
@@ -55871,7 +55850,6 @@ eu-nilupool.ddns.net
 +.ppresulesglkd.online
 +.pptfhhrohykzk.online
 +.ppxomldexqmxf.online
-+.ppztabecrlhof.online
 +.pqitcohyrrnzv.online
 +.pqmv5xir9y5zb6h.rest
 +.pqsjujuhicwrx.online
@@ -56229,7 +56207,6 @@ eu-nilupool.ddns.net
 +.rewinddisgusting.com
 +.reyeshehadtwobri.com
 +.rfatsbpqippxs.online
-+.rfejazeivqorb.online
 +.rfilmuhipsfdh.online
 +.rfjleaeekobvz.online
 +.rfjleunftkwbm.online
@@ -57226,7 +57203,6 @@ eu-nilupool.ddns.net
 +.vihtori-analytics.fi
 +.villainous-track.pro
 +.vinci-route-auto.com
-+.viovtyhydslzg.online
 +.vip-dien-mayxanh.com
 +.vipavkacrfujf.online
 +.viperhappenscope.com
@@ -59186,7 +59162,6 @@ eu-nilupool.ddns.net
 +.ff-memnber-garena.com
 +.ffbdatxllaeco.website
 +.ffjrpdfduteic.website
-+.fflntzivgrtfr.website
 +.ffrfkhcxeypbe.website
 +.ffskgnxhhnqaf.website
 +.ffsrxeamzwtsl.website
@@ -60769,7 +60744,6 @@ eu-nilupool.ddns.net
 +.parasitebootslion.com
 +.parasitetiessling.com
 +.parcelpointcenter.com
-+.partletdiseasehm.cyou
 +.partner-ts.groupon.be
 +.partner-ts.groupon.de
 +.partner-ts.groupon.fr
@@ -62696,7 +62670,6 @@ eu-nilupool.ddns.net
 +.6zbjbrjhlry7qlub6o.cfd
 +.72h1i16uzmbkvpn2e5.cfd
 +.7eit28evocng5gjuu.rest
-+.7vyzkqveuxwz1tvhtk.cfd
 +.84hr9imnpwgx49uggw.cfd
 +.879.thebussybandit.com
 +.890092.drizzledrape.co
@@ -65889,7 +65862,6 @@ openburstpool.ddns.net
 +.inwardsbeepedjocote.cfd
 +.iowastatecyclones.store
 +.isolatedcompliments.com
-+.ixqn6j556gizq9kxqp.rest
 +.jamshidectypalduper.cfd
 +.jayeshprankedsmogs.cyou
 +.jeffabodeproficient.com

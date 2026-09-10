@@ -1,10 +1,10 @@
 ! Title: Sukka's Ruleset - AdGuardHome Blocklist
-! Last modified: Thu, 10 Sep 2026 10:54:03 GMT
+! Last modified: Thu, 10 Sep 2026 11:04:16 GMT
 ! Expires: 6 hours
 ! License: https://github.com/SukkaW/Surge/blob/master/LICENSE
 ! Homepage: https://github.com/SukkaW/Surge
 ! Description: The AdGuardHome ruleset supports AD blocking, tracking protection, privacy protection, anti-mining
-! $content-hash-v1$:qZ1feZYsqFB82S3aEdq1MhbQE-6HgSdoIs1LP8bdRWY$
+! $content-hash-v1$:phuWM1XwztsgYdo_Mr3HgK1h9S2avhYObTZfz6DHmkQ$
 !
 ||data^
 ||null^
@@ -9758,6 +9758,7 @@
 ||proxyfl.info^
 ||proxyway.com^
 ||psaltauw.net^
+||psnxiljx.com^
 ||pt.beredd.se^
 ||pt.dwcdn.net^
 ||ptauxofi.net^
@@ -20368,6 +20369,7 @@
 ||greetzebra.com^
 ||grefutiwhe.com^
 ||greystripe.com^
+||gridedpul.qpon^
 ||gridoffers.com^
 ||grincircus.com^
 ||groanedzar.cfd^
@@ -22298,6 +22300,7 @@
 ||priceypies.com^
 ||prideproms.com^
 ||primaryads.com^
+||primynorsk.cfd^
 ||privateadx.com^
 ||pro-market.net^
 ||pro.gobkbg.com^
@@ -33465,6 +33468,7 @@
 ||bustlefungus.com^
 ||bustlingbook.com^
 ||buttery-sick.com^
+||butynejutes.qpon^
 ||buukm.asarai.com^
 ||buyer.okiela.com^
 ||bvujr.godiva.com^
@@ -37881,6 +37885,7 @@
 ||secure.vitrum.fi^
 ||securedvisit.com^
 ||securepayment.cc^
+||sedangrelay.qpon^
 ||sedatingnews.com^
 ||seedscissors.com^
 ||seekfinddate.com^
@@ -41166,6 +41171,7 @@
 ||ainu.intel.com.tw^
 ||aiq-in.delish.com^
 ||aiqx.jeopardy.com^
+||airingscarts.shop^
 ||airwavetrouss.cfd^
 ||aiztl.eloquii.com^
 ||ajcryptominer.com^
@@ -41554,6 +41560,7 @@
 ||attachedkneel.com^
 ||attractivecap.com^
 ||aucqdk.autodoc.es^
+||audacesorbate.cfd^
 ||audxht.effeweg.nl^
 ||auntsperopod.cyou^
 ||aunuu.gorjana.com^
@@ -42141,6 +42148,7 @@
 ||cocosdustuck.cyou^
 ||code.aimedads.com^
 ||codedexchange.com^
+||codenscorner.cyou^
 ||codesoftchina.com^
 ||coeffvibices.shop^
 ||coinhunters.space^
@@ -45866,6 +45874,7 @@
 ||opim.pixmania.com^
 ||opqrs.ltliang.com^
 ||opt.mocortech.com^
+||optedquality.qpon^
 ||optionen.hager.de^
 ||opulentsylvan.com^
 ||opvanillishan.com^
@@ -46761,6 +46770,7 @@
 ||sephirashaikh.cfd^
 ||serenecascade.com^
 ||serfishshawn.cyou^
+||sericincarte.qpon^
 ||serv.letudiant.fr^
 ||serv.matchaao.com^
 ||serv.zarbeebd.com^
@@ -49356,6 +49366,7 @@
 ||trifolygeleem.cfd^
 ||trilledeffuso.cfd^
 ||triplestat.online^
+||tritylodorate.cfd^
 ||trivialghana.qpon^
 ||trjs2.mediafin.be^
 ||trk-brevinate.com^
@@ -49801,6 +49812,7 @@
 ||weepingmosur.qpon^
 ||weightydesire.com^
 ||weirdsentence.com^
+||welbljmkjmvwm.top^
 ||welcome.item24.be^
 ||welcome.item24.ch^
 ||welcome.item24.cz^
@@ -49850,6 +49862,7 @@
 ||wingstowheels.com^
 ||winzessolicit.com^
 ||wioaavu.enkay.com^
+||wishtdisnest.qpon^
 ||withnimeddies.cfd^
 ||withyou.shorr.com^
 ||witnessjacket.com^
@@ -50000,6 +50013,7 @@
 ||yghhhn.frishop.dk^
 ||ygsoeu.size.co.uk^
 ||ygy.faanfruit.com^
+||yhlexjlgxhnjg.com^
 ||yhtarm.footway.be^
 ||yieldingwoman.com^
 ||yiluzhuanqian.com^
@@ -50421,6 +50435,7 @@
 ||aeratorassman.cyou^
 ||aesus.so-net.ne.jp^
 ||aexhyo.pilatos.com^
+||aezbgiyefpqyb.site^
 ||afecvu.bulevip.com^
 ||aff.magneticjv.com^
 ||affclh.bookline.hu^
@@ -52455,6 +52470,7 @@
 ||epcpz.limelush.com^
 ||epcuv.calocurb.com^
 ||eperlanskiffs.qpon^
+||epigeicclimant.cfd^
 ||epoptsonnyjig.qpon^
 ||eprqjmvpz2846c.cfd^
 ||epsilon.6sense.com^
@@ -59671,6 +59687,7 @@
 ||unsung-comment.com^
 ||untidyquestion.com^
 ||untmm.virtuepb.com^
+||unwaryusurers.shop^
 ||unwieldyhealth.com^
 ||unwindrevision.com^
 ||unwombtapsman.qpon^
@@ -61413,6 +61430,7 @@
 ||branchcust.zulln.se^
 ||brc.englishtimes.cc^
 ||brcicar.eccocar.com^
+||breakaxrookies.shop^
 ||brevnet.eccocar.com^
 ||brice-test.nawar.io^
 ||bridgeskeyword.shop^
@@ -61561,6 +61579,7 @@
 ||cattlecommittee.com^
 ||cb6by6g97pr5qxk.cfd^
 ||cbpnm.scentbird.com^
+||cbsloirslgakw.space^
 ||cbvngyngaulfa.space^
 ||cc.empirediesels.ca^
 ||ccdakv.medcline.com^
@@ -62574,6 +62593,7 @@
 ||ethereum-pocket.com^
 ||etl.xlmc.sandai.net^
 ||ett26.ostkueste.com^
+||etzcejqibnrjk.space^
 ||etznkn.ec-store.net^
 |eu-ethpool.ddns.net^
 |eu-ubqpool.ddns.net^
@@ -69899,6 +69919,7 @@
 ||yacfpnpspbvtd.space^
 ||yadtbk.blacks.co.uk^
 |yaolu.yuedu.163.com^
+||yawnupshelldog.qpon^
 ||yazio-analytics.com^
 ||ybeckzpppxurb.space^
 ||ybnarmqssukdj.space^
@@ -75171,6 +75192,7 @@
 ||powerup.rsaworks.com^
 ||ppdata.idlebuddy.com^
 ||pppbwjjikbotk.online^
+||ppztabecrlhof.online^
 ||pqbonm.swedoffice.se^
 ||pqiicj.misterspex.se^
 ||pqmbxd.betersport.nl^
@@ -75406,6 +75428,7 @@
 ||revolt.imobiliare.ro^
 ||reyad.dokan365.store^
 ||rfajl.teppermans.com^
+||rfejazeivqorb.online^
 ||rfmqj.broadwaysd.com^
 ||rfqnbfdmqosyy.online^
 ||rfssm.iliabeauty.com^
@@ -78236,6 +78259,7 @@
 ||views.asurascans.com^
 ||vikingclan.kano.link^
 ||violetcommercial.com^
+||viovtyhydslzg.online^
 ||vip.agentteam.com.au^
 ||vipimo.accessbdd.com^
 ||viralnewssystems.com^
@@ -80651,6 +80675,7 @@
 ||ff.fralsningsarmen.se^
 ||ffidg.leben-paris.com^
 ||fflbc.hillmangear.com^
+||fflntzivgrtfr.website^
 ||ffrmel.gerryweber.com^
 ||ffuodj.lanebryant.com^
 ||fghcq.justice4you.com^
@@ -83396,6 +83421,7 @@
 ||parquet.armparquet.it^
 ||parrot.alookwithin.ca^
 ||participants.evolv.ai^
+||partletdiseasehm.cyou^
 ||partner.aeriumshop.hr^
 ||partner.aeriumshop.nl^
 ||partner.aeriumshop.pl^
@@ -87009,6 +87035,7 @@
 ||6iuz5f65z4x6howk6r.cfd^
 ||7q.j68l67f4yknn1t.cyou^
 ||7ql1jnbyrhw94cffel.cfd^
+||7vyzkqveuxwz1tvhtk.cfd^
 ||868tihu7olpi63nx5.rest^
 ||a.foxsportsarizona.com^
 ||a.foxsportsdetroit.com^
@@ -97001,6 +97028,7 @@
 ||ivbvq.fairwayjockey.com^
 ||ivpvb.sunriverhoney.com^
 ||ixnynf.yellohvillage.es^
+||ixqn6j556gizq9kxqp.rest^
 ||j423.oneidadispatch.com^
 ||ja-jp-a8.etudehouse.com^
 ||jachd.bioliteenergy.com^
