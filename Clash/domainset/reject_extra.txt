@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Reject Extra
-# Last Updated: 2026-11-19T07:33:08.326Z
-# Size: 84362
+# Last Updated: 2026-11-19T23:33:21.937Z
+# Size: 84351
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -32,7 +32,7 @@
 #   - https://ublockorigin.pages.dev/thirdparties/easylist-notifications.txt
 #   - https://urlhaus-filter.pages.dev/urlhaus-filter-domains-online.txt
 #
-# $content-hash-v1$:n3yuNTI6l0YHG9zVwAi5r47tFbX3f7bRrmtcpkPzark$
+# $content-hash-v1$:zeF10R4-C3rl_2XnsPD-wjsu-lzOLlfNYc25U_w-PRQ$
 #########################################
 7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe
 +.4.fo
@@ -1740,6 +1740,7 @@
 +.alloha.tv
 +.alont.xyz
 +.alpari.ru
++.althz.com
 +.amarfa.ir
 +.amhen.com
 +.amoad.com
@@ -9664,7 +9665,6 @@
 +.placeoff.ru
 +.plavxml.com
 +.playlink.pl
-+.playnow.wtf
 +.playtem.com
 +.plclick.com
 +.pleisty.com
@@ -11488,6 +11488,7 @@
 +.amintart.com
 +.amomales.com
 +.ampervid.com
++.ams-port.com
 +.an.substy.ai
 +.an.yandex.ru
 +.analytik.xyz
@@ -21657,7 +21658,6 @@ scx.ddns.net
 +.admittedhi.com
 +.adnimation.com
 +.adnotebook.com
-+.adonsonlyd.xyz
 +.adonstudio.com
 +.adoperator.com
 +.adopockets.com
@@ -22207,7 +22207,6 @@ scx.ddns.net
 +.bigtracker.com
 +.bijinkadan.com
 +.bildirimci.net
-+.bimkikamraw.in
 +.binance.center
 +.binancebtc.com
 +.binanceweb.com
@@ -24774,7 +24773,6 @@ scx.ddns.net
 +.netzwerk-ad.de
 +.neuraipool.com
 +.nevadaspca.com
-+.new-twinks.com
 +.new.traffic.ru
 +.new2crypto.com
 +.newagevz.homes
@@ -30049,7 +30047,6 @@ scx.ddns.net
 +.newgitgerto.xyz
 +.newhostblog.com
 +.newnudecash.com
-+.news-pewuce.com
 +.news.nevuer.com
 +.news6health.com
 +.newscode.online
@@ -30657,7 +30654,6 @@ scx.ddns.net
 +.raspi-ninja.com
 +.rastleemesa.com
 +.rateonclick.com
-+.ratexchange.net
 +.rauth.chubb.com
 +.ravencoin.world
 +.ravenpool.ninja
@@ -37269,7 +37265,6 @@ scx.ddns.net
 +.unfaceusednt.com
 +.unfairgargle.com
 +.unfoxedanend.com
-+.uniquebranch.com
 +.united-infos.net
 +.universalads.com
 +.unjckakmfywf.com
@@ -47776,7 +47771,6 @@ oceansail.ddns.net
 +.pbmkglrlqcpgi.site
 +.pboadsgyalldd.site
 +.pbwanaqyvqptj.site
-+.pbygoyhgbyyej.site
 +.pcbixpbwdxqoa.site
 +.pcccxvckbqdlb.site
 +.pccitbsqibmsu.site
@@ -55651,7 +55645,6 @@ eu-ubqpool.ddns.net
 +.pesagereekapii.cyou
 +.peugyiwmgvadr.space
 +.peuwacvgrvtrg.space
-+.pewitsaviated.click
 +.pfautxkmfmrbu.space
 +.pfctoaznqazlg.store
 +.pfivvdqcuvmig.space
@@ -57422,7 +57415,6 @@ eu-ubqpool.ddns.net
 +.uevwkndixetea.space
 +.uexkrmglcmebk.space
 +.ufdnysonfvwnj.space
-+.ufocgyfmiadxv.space
 +.ufsqslheyqczp.space
 +.ufuaaejrupvow.space
 +.ufviopklcewdn.space
@@ -68324,6 +68316,7 @@ eu-nilupool.ddns.net
 +.qbyyhvlzxpuvg.website
 +.qcyfngmkrhcmg.website
 +.qeicbuekdqyna.website
++.qfpzpuqfgskls.website
 +.qgfkv4wyj7t8m6nk4.cfd
 +.qgitfyktwfhba.website
 +.qgkqbffrjxrqc.website
@@ -70166,7 +70159,6 @@ eu-nilupool.ddns.net
 +.airbitclub-official.ru
 +.airlinervegetarian.com
 +.airmedcarennetwork.com
-+.airplayfallenjoel.cyou
 +.ak.wabsteruncrude.qpon
 +.al.compareaprice.co.uk
 +.alarmsportsnetwork.com
@@ -70182,7 +70174,6 @@ eu-nilupool.ddns.net
 +.analytics-2.aasaam.com
 +.analytics-3.aasaam.com
 +.analytics.admon.com.vn
-+.analytics.dawg.network
 +.analytics.enxovaly.com
 +.analytics.facebook.com
 +.analytics.fsoft.com.vn
@@ -70965,7 +70956,6 @@ eu-nilupool.ddns.net
 +.gullbastardtorment.com
 +.gulpedcountwhipped.com
 +.gumeminlogi.webflow.io
-+.gxco96vpjfm5thllbo.cfd
 +.gxok7zf7zu77z9kqj2.cfd
 +.gypsyairplanereign.com
 +.gypsytriggerscrazy.com
@@ -83705,7 +83695,6 @@ d3ddidv77grh0f.cloudfront.net
 +.krhkyp1jn6y.bl5lfn46htwct1ewum5.cyou
 +.meiodepagamento.campanhaporto.com.br
 +.ny9u56zrr11g64cf.v259u9gbo2cejv.cyou
-+.o2p94w1py18wo4k51hbqnuonyirqwh8.rest
 +.pdfshaper-pro-downloadtool.github.io
 +.pdr.eve.sonyentertainmentnetwork.com
 +.predestinationicebergpredicament.com
